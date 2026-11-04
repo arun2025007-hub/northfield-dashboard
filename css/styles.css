@@ -119,3 +119,4 @@ dialog::backdrop{background:rgb(10 15 22 / .6)}
   .sidebar .status{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
