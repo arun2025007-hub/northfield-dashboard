@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Overview – Northfield Operations</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html">Northfield Operations</a>
+  <nav class="utility" aria-label="Utility">
+    <ul>
+      <li><a href="settings.html">Account settings</a></li>
+      <li><a href="help.html">Help</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" aria-labelledby="side-title">
+    <h2 id="side-title">Workspace</h2>
+    <nav class="side-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" aria-current="page">Overview</a></li>
+        <li><a href="users.html">Team members</a></li>
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+    <div class="status">
+      <h2 id="sys-title">System status</h2>
+      <p>All services running.</p>
+      <p>Last sync: 08:45 IST</p>
+    </div>
+  </aside>
+
+  <main id="main" tabindex="-1">
+
+    <section id="view-overview" aria-labelledby="h-overview">
+      <h1 id="h-overview" tabindex="-1">Overview</h1>
+      <p class="lede">A snapshot of activity across your workspace for the past 30 days.</p>
+
+      <h2 class="sr-only" id="kpi-title">Key metrics</h2>
+      <div class="kpis" role="group" aria-labelledby="kpi-title">
+        <article aria-labelledby="k1">
+          <h3 id="k1">Active members</h3>
+          <p class="figure">128</p>
+          <p class="delta">Up 6 from last month</p>
+        </article>
+        <article aria-labelledby="k2">
+          <h3 id="k2">Open requests</h3>
+          <p class="figure">34</p>
+          <p class="delta">Down 9 from last month</p>
+        </article>
+        <article aria-labelledby="k3">
+          <h3 id="k3">Average response time</h3>
+          <p class="figure"><span>4.2</span> <abbr title="hours">hrs</abbr></p>
+          <p class="delta">Unchanged</p>
+        </article>
+      </div>
+
+      <section class="panel" aria-labelledby="recent-title">
+        <h2 id="recent-title">Recent activity</h2>
+        <ol>
+          <li><time datetime="2026-11-04T08:30">08:30</time> – Priya Raman approved access request #2041.</li>
+          <li><time datetime="2026-11-03T17:12">Yesterday, 17:12</time> – Daniel Okafor was added to the Finance group.</li>
+          <li><time datetime="2026-11-03T11:05">Yesterday, 11:05</time> – Weekly report exported by Mei Lin.</li>
+        </ol>
+      </section>
+    </section>
+
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p><small>© 2026 Northfield Operations</small></p>
+  <nav aria-label="Footer">
+    <ul>
+      <li><a href="help.html">Help</a></li>
+      <li><a href="settings.html">Settings</a></li>
+    </ul>
+  </nav>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
